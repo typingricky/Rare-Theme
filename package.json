@@ -1,0 +1,37 @@
+{
+    "name": "rare-theme",
+    "displayName": "Rare Theme",
+    "description": "Rare Theme - based on Tsoding Emacs",
+    "publisher": "RicardoVxx",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RicardoLTS/Rare-Theme"
+    },
+    "galleryBanner": {
+        "color": "#fddd3b",
+        "theme": "dark"
+    },
+    "icon": "images/icon/image.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Emacs",
+        "Yellow",
+        "Flat",
+        "Dark"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rare Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Rare Theme-color-theme.json"
+            }
+        ]
+    }
+}
